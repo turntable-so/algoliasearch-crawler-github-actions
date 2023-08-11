@@ -18,7 +18,7 @@ export function getConfig({
   return {
     appId,
     apiKey,
-    indexPrefix: 'crawler_',
+    indexPrefix: '',
     rateLimit: 8,
     startUrls: [siteUrl],
     ignoreQueryParams: ['source', 'utm_*'],
